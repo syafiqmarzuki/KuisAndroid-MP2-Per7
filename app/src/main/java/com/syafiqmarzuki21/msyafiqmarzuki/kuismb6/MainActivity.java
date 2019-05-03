@@ -111,13 +111,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //
     @Override
     public void onClick(View v) {
-        if(v == btnDaftar){
-            addKampus();
-
-        }
-
-        if(v == btnView){
+        if (v == btnView){
             startActivity(new Intent(this,TampilSemua.class));
+        } else{
+            if(editTextKD.getText().toString().equals("")){
+                editTextKD.setError("Wajib Diisi");
+            }else if (editTextNama.getText().toString().equals("")){
+                editTextNama.setError("Wajib Diisi");
+            }else if (editTextJenis.getText().toString().equals("")){
+                editTextJenis.setError("Wajib Diisi");
+            }else if (editTextAkreditas.getText().toString().equals("")){
+                editTextAkreditas.setError("Wajib Diisi");
+            } else {
+                if(v == btnDaftar){
+                    addKampus();
+
+                }
+
+            }
+
         }
     }
 }
