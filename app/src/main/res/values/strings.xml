@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kuis_16090025</string>
+    <string name="kd_kampus">KD Kampus</string>
+    <string name="nm_kampus">Nm Kampus</string>
+    <string name="jn_kampus">Jn Kampus</string>
+
+    <string name="register">Daftar</string>
+    <string name="view">Lihat Data</string>
+    <string name="error">Kesalahan Jaringan</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="Akreditasi">Akreditasi</string>
+
+
+</resources>
